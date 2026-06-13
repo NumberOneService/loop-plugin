@@ -1,0 +1,17 @@
+{
+  "name": "loop-marketplace",
+  "owner": {
+    "name": "Number One Appliance Repair"
+  },
+  "metadata": {
+    "description": "Local marketplace hosting the loop plugin.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "loop",
+      "source": "./loop",
+      "description": "A bounded multi-agent collaboration loop: six specialist subagents iterate on a goal until a verifier confirms it is complete."
+    }
+  ]
+}
